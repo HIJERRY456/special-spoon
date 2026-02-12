@@ -1,0 +1,1 @@
+{\n  "name": "multiplayer-server",\n  "version": "1.0.0",\n  "description": "A multiplayer server using ws and express",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js"\n  },\n  "dependencies": {\n    "express": "^4.17.1",\n    "ws": "^8.0.0"\n  }\n}
