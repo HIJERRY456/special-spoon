@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Arrow Key Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #1a1a1a;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+        #gameContainer {
+            text-align: center;
+        }
+        canvas {
+            border: 2px solid #00FFFF;
+            background-color: #0a0a0a;
+            display: block;
+            margin: 20px auto;
+            cursor: none;
+        }
+        #instructions {
+            color: #00FFFF;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>🎮 Arrow Key Movement Game</h1>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="instructions">
+            <p>Use <strong>Arrow Keys</strong> to move your cyan ball</p>
+            <p>⬆️ ⬇️ ⬅️ ➡️</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
